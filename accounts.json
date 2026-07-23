@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "hash": {
+    "algo": "PBKDF2-SHA256",
+    "iterations": 100000,
+    "keyLenBits": 256
+  },
+  "users": []
+}
