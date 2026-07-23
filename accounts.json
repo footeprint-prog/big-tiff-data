@@ -5,5 +5,27 @@
     "iterations": 100000,
     "keyLenBits": 256
   },
-  "users": []
+  "users": [
+    {
+      "username": "ericap",
+      "role": "primary",
+      "canSyncCanon": true,
+      "salt": "QHVOEzPwPSZSiKX4hSoAQA==",
+      "hash": "aYMIMcsX24GqAACWH91tG+DMrOaZUEPU7dF4pjZOIuQ="
+    },
+    {
+      "username": "aaronf",
+      "role": "viewer",
+      "canSyncCanon": true,
+      "salt": "373HkPy1eI+LQqCaOE3h/w==",
+      "hash": "NpnaW/qEs+LzKzsxKF8sDQUNJiF+8CfMCGCXdzOVUWY="
+    },
+    {
+      "username": "guest",
+      "role": "viewer",
+      "canSyncCanon": false,
+      "salt": "z7O9oGNy6UEdUN1kPPeVgw==",
+      "hash": "yFOi46sYaF9J4VaBJWNnIrO7FH0DhP1xT84MshFPneU="
+    }
+  ]
 }
