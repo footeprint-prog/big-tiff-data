@@ -11,6 +11,7 @@ tool manages them. They are:
 | `accounts.json` | User accounts: username, role, and a salted password **hash** (never a plaintext password). Set these with the hash-generator helper (see the storyforge repo's `SETUP.md`). |
 | `drafts.json` | Erica's current per-scene draft text. Draft prose is **encrypted** (AES-GCM) — the plaintext is never stored here, only ciphertext. |
 | `checkpoints.json` | Named Draft Pad checkpoints per scene (also encrypted). |
+| `state.json` | Everything else that must follow Erica across devices — Notepad notes, her custom Library entries, scene statuses, the changelog, and which scene she was last on. Encrypted. |
 | `stats.json` | Writing stats + achievement/event log that drives the tool's progress + rewards. |
 
 ## Privacy model (read this)
