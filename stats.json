@@ -1,8 +1,16 @@
 {
   "schemaVersion": 1,
   "scenesCompleted": 0,
-  "totalWords": 0,
-  "streakDays": [],
-  "events": [],
+  "totalWords": 3,
+  "streakDays": [
+    "2026-07-24"
+  ],
+  "events": [
+    {
+      "type": "draft_saved",
+      "at": "2026-07-24T06:43:58.362Z",
+      "sceneId": "act1_scene01"
+    }
+  ],
   "achievementsUnlocked": []
 }
